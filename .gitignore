@@ -111,3 +111,6 @@ docs/development/
 docs/internal/
 scripts/dev/
 scripts/local/
+
+# Demo folder (contains credentials - never commit)
+demo/
