@@ -231,44 +231,6 @@ GRANT REPLICATION SLAVE, REPLICATION CLIENT ON *.* TO 'streamer'@'%';
 FLUSH PRIVILEGES;
 ```
 
-## 📚 API Reference
-
-### UltimateStreamer Class
-
-#### Constructor
-```typescript
-new UltimateStreamer(config: StreamerConfig)
-```
-
-#### Methods
-```typescript
-// Start streaming
-await streamer.start(): Promise<void>
-
-// Stop streaming  
-await streamer.stop(): Promise<void>
-
-// Get connection status
-streamer.isConnected(): boolean
-
-// Get performance metrics
-streamer.getMetrics(): StreamerMetrics
-```
-
-#### Events
-```typescript
-// Data changes
-streamer.on('change', (data: ChangeEvent) => void)
-
-// Connection events
-streamer.on('connected', () => void)
-streamer.on('disconnected', () => void)
-streamer.on('error', (error: Error) => void)
-
-// Performance events
-streamer.on('metrics', (metrics: PerformanceMetrics) => void)
-```
-
 ## 🚨 Error Handling
 
 ```javascript
@@ -321,13 +283,6 @@ const productionConfig = {
 - **Social Media**: Live comments, notifications, activity feeds
 - **Analytics**: Real-time dashboard updates, metrics streaming
 
-## 📖 Documentation
-
-- **[Quick Start Guide](docs/quick-start/)** - Get up and running in 5 minutes
-- **[Integration Examples](docs/integration/)** - Framework-specific implementations
-- **[API Reference](docs/api-reference/)** - Complete method documentation
-- **[Performance Guide](docs/benchmarks/)** - Optimization tips and benchmarks
-
 ## 🎮 Try the Demo
 
 ```bash
@@ -345,7 +300,7 @@ Visit `http://localhost:3000` to see a real-time order management system in acti
 
 - **Issues**: [GitHub Issues](https://github.com/KrunalTarale5/ultimate-streaming-package/issues)
 - **Email**: [krunaltarale555@gmail.com](mailto:krunaltarale555@gmail.com)
-- **Documentation**: [Complete Docs](docs/)
+- **Integration Guide**: [Complete Integration Documentation](docs/)
 
 ## 📝 License
 

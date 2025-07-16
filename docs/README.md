@@ -15,12 +15,6 @@ Welcome to the complete documentation for the Ultimate Streaming Package! This d
 - **[Database Configuration](integration/#database-setup)** - MongoDB and MySQL setup
 - **[Production Deployment](integration/#production)** - Deployment best practices
 
-### 📖 **API Documentation**
-- **[Complete API Reference](api-reference/)** - All methods, events, and types
-- **[TypeScript Definitions](api-reference/#typescript)** - Full TypeScript support
-- **[Configuration Options](api-reference/#configuration)** - All available settings
-- **[Error Handling](api-reference/#error-handling)** - Comprehensive error management
-
 ### 📊 **Performance & Optimization**
 - **[Benchmarks](benchmarks/)** - Performance comparisons and test results
 - **[Optimization Guide](benchmarks/#optimization)** - Tips for maximum performance
@@ -33,10 +27,10 @@ Welcome to the complete documentation for the Ultimate Streaming Package! This d
 
 ## 🎯 **Quick Navigation**
 
-### For Developers
+### For Integration Teams
 ```bash
 # Install the package
-npm install @krunaltarale/ultimate-streaming-package
+npm install @krunal_tarale-5/ultimate-streaming-package
 
 # Basic MongoDB setup
 const streamer = new UltimateStreamer({
@@ -50,7 +44,7 @@ const streamer = new UltimateStreamer({
 - **[Performance Benchmarks](benchmarks/performance-comparison.md)** - 99.96% improvement metrics
 - **[Security Considerations](../SECURITY.md)** - Enterprise security features
 
-### For Architects
+### For System Architects
 - **[System Architecture](integration/#architecture)** - How it fits in your stack
 - **[Scalability Guide](integration/#scalability)** - Handling high traffic
 - **[Deployment Patterns](integration/#deployment-patterns)** - Best practices
@@ -120,7 +114,6 @@ The demo showcases:
 |--------------|----------|
 | Get started quickly | [Quick Start Guide](quick-start/) |
 | Integrate with my framework | [Integration Guide](integration/) |
-| Understand the API | [API Reference](api-reference/) |
 | See performance data | [Benchmarks](benchmarks/) |
 | Build a business case | [Business Value](use-cases/business-value.md) |
 | Deploy to production | [Production Guide](integration/#production) |
@@ -138,8 +131,8 @@ The demo showcases:
 
 ### Documentation Support
 - Browse the guides above for comprehensive information
-- Check the [API Reference](api-reference/) for specific method details
-- Review [Integration Examples](integration/) for your use case
+- Check the [Integration Examples](integration/) for your specific use case
+- Review [Performance Benchmarks](benchmarks/) for optimization tips
 
 ### Technical Support
 - **GitHub Issues**: [Report bugs or request features](https://github.com/KrunalTarale5/ultimate-streaming-package/issues)

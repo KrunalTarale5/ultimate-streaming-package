@@ -78,7 +78,11 @@
     "advancedIndex.js",
     "lib/",
     "benchmark/",
-    "docs/",
+    "docs/quick-start/",
+    "docs/integration/",
+    "docs/benchmarks/",
+    "docs/use-cases/",
+    "docs/README.md",
     "README.md",
     "LICENSE",
     "CHANGELOG.md"
