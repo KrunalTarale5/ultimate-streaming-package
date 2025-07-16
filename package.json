@@ -1,6 +1,6 @@
 {
   "name": "@krunal_tarale-5/ultimate-streaming-package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The ultimate real-time data streaming package with 99.96% better latency. Supports MongoDB, MySQL change streams, binlog monitoring, and advanced heartbeat mechanism with enterprise-grade performance optimization.",
   "main": "index.js",
   "types": "index.d.ts",
@@ -97,4 +97,4 @@
   "publishConfig": {
     "access": "public"
   }
-} 
+}
