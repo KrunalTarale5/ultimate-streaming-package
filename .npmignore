@@ -1,0 +1,64 @@
+# Development files
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Demo application (keep light package)
+demo/node_modules/
+demo/build/
+demo/dist/
+
+# Testing
+coverage/
+.nyc_output/
+test/
+tests/
+*.test.js
+*.spec.js
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Lock files (let users generate their own)
+package-lock.json
+yarn.lock
+
+# Documentation source files (keep only built docs)
+docs/development/
+docs/internal/
+
+# Benchmark raw data
+benchmark/results/
+benchmark/logs/
+
+# Development scripts
+scripts/dev/
+scripts/local/ 
